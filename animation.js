@@ -14,3 +14,8 @@ bodyEl.addEventListener("mousemove",(event)=> {
         spanEl.remove();  // if we don't remove them 
     }, 3000);             //  the animation will happend but spans will stand in the body
 })
+
+
+/* so the time to delete the html span is 3<6 which
+   is the time of the animation so the element will
+   be deleted before the html element return to its position.*/
